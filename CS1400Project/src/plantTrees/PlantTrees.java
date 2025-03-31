@@ -12,7 +12,8 @@ public class PlantTrees {
 		String userInput;
 		boolean closeToPowerLines;
 		
-		System.out.print("Input tree name: ");
+		System.out.println("Oak, Compact Italian Cypress, Tuscarora Crape Myrtle, Cold Hardy");
+		System.out.print("Input tree name (choose one of the above): ");
 		
 		// Assign variables
 		userInput = scnr.nextLine();
