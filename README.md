@@ -21,3 +21,5 @@ This program requires two libraries to be imported (OpenCSV and Apache Commons L
 
 1. Download the latest jar file for Apache Commons Lang, which can be found here: [insert link]
 2. Repeat steps 2-6 from **OPEN CSV**.
+
+## How to use code
