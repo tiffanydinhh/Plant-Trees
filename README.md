@@ -1,6 +1,6 @@
 # Plant Trees, CS 1400 Project
 
-## A program that has two parts where the user's input is used to output information on trees and wildfires
+## A program that has two parts, where the user's input is used to output information on trees and wildfires
 
 ## THIS PROJECT HAS ONLY BEEN TESTED ON ECLIPSE
 
@@ -10,12 +10,15 @@ This program requires two libraries to be imported (OpenCSV and Apache Commons L
 
 **OPEN CSV:**
 
-1. Download the latest jar file for OpenCSV, which can be found here: [insert link]
-2. Right-click on the project and select "Build Path".
-3. Select "Configure Build Path", select "Libraries", select "Class Path", then click "Add External Jars".
-4.  Select the OpenCSV jar file and click "open".
-5.  Select "Order and Export" and check the OpenCSV jar file.
-6.  Click "Apply and Close"
+1. Download the latest jar file for OpenCSV, which can be found here:
+   ```sh
+   https://sourceforge.net/projects/opencsv/
+   ```
+3. Right-click on the project and select "Build Path".
+4. Select "Configure Build Path", select "Libraries", select "Class Path", then click "Add External Jars".
+5.  Select the OpenCSV jar file and click "open".
+6.  Select "Order and Export" and check the OpenCSV jar file.
+7.  Click "Apply and Close"
 
 **APACHE COMMONS LANG:**
 
