@@ -8,7 +8,7 @@ import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
 import com.opencsv.exceptions.CsvValidationException;
 
-public class OpenCSV {
+public class PartB {
 	
 	public static void main(String[] args) throws Exception {
 		
