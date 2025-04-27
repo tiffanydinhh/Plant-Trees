@@ -12,7 +12,7 @@ public class PartB {
 	
 	public static void main(String[] args) throws Exception {
 		
-		String fileName = "/Users/tiffanydinh/eclipse-workspace/CS1400Project/src/Fires_100.csv";
+		String fileName = //insert file location
 		
 		try (CSVReader reader1 = new CSVReaderBuilder(new FileReader (fileName)).build()) {
 			String [] nextLine;
