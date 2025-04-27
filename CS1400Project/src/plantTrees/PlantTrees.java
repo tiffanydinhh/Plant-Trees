@@ -1,44 +1,39 @@
-package plantTrees;
+package trees;
 
 import java.util.Scanner;
 
+public class partA {
 
-public class PlantTrees {
-	
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner scnr = new Scanner(System.in);
 		
-		//Declare variables
-		String userInput;
-		boolean closeToPowerLines;
+		//get the user to chose a tree
+		System.out.println("Power Lines");
+		System.out.println("Choose one of these trees.");
+		System.out.println("1. Oak");
+		System.out.println("2. Tuscarora Crape Myrtle");
+		System.out.println("3. Compact Italian Cypress");
+		System.out.println("4. Cold Hardy");
 		
-		System.out.println("Oak, Compact Italian Cypress, Tuscarora Crape Myrtle, Cold Hardy");
-		System.out.print("Input tree name (choose one of the above): ");
+		//the user will type one of the options
+		String usersTree = scnr.nextLine();
 		
-		// Assign variables
-		userInput = scnr.nextLine();
-		closeToPowerLines = false;
-		
-		// if-else statement assigns closeToPowerLines truth value based on user input
-		if (userInput.equals("Oak") || userInput.equals("Compact Italian Cypress")) {
-			closeToPowerLines = false;
+		if(usersTree.equals("Oak")) {
+			System.out.print("Oak trees range from being 40 to 80 feet tall, so it is recommended to plant in areas far from power lines."); // fill out the info to be printed out later for each tree
 		}
-		else if (userInput.equals("Tuscarora Crape Myrtle") || userInput.equals("Cold Hardy")) {
-			closeToPowerLines = true;
+		else if(usersTree.equals("Tuscarora Crape Myrtle")) {
+			System.out.print("Tuscarora Crape Myrtle trees range from 10 to 14 feet, so it is recommended to plant near power lines."); 
 		}
-		else {
-			System.out.println("Invalid input (input is case-sensitive)");
-			return;
+		else if (usersTree.equals("Compact Italian Cypress")) {
+			System.out.print("Compact Italian Cypress trees range from 25 to 30 feet, so it is recommended to plant in areas far from power lines."); 
 		}
-		
-		// based on closeToPowerLines truth value, print if it is a good choice or not
-		if (closeToPowerLines) {
-			System.out.println(userInput + " is a good choice to be planted in California in areas close to power lines.");
+		else if(usersTree.equals("Cold Hardy")) {
+			System.out.print("Cold Hardy tress range from 8 to 10 feet, so it is recommended to plant near power lines."); 
 		}
 		else {
-			System.out.println(userInput + " is not a good choice to be planted in California in areas close to power lines.");
+			System.out.print("Please choose one of the trees listed and exactly how it is written.");
 		}
-		
 	}
-	
+
 }
