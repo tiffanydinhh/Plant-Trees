@@ -46,7 +46,7 @@ public class PartB {
 			System.out.println(count + " wildfires occured in " + userInput);
 		}
 		else if (count == 0){
-			System.out.println("Invalid input (input is case-sensitive)");
+			System.out.println("Invalid input (Type the name exactly how it is written)");
 		}
 			
 		}
