@@ -1,4 +1,4 @@
-# Plant Trees, CS 1400 Project
+# Plant Trees, CS 1400 Project - Group 3
 
 ## A program that has two parts, where the user's input is used to output information on trees and wildfires
 
